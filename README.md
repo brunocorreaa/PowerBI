@@ -36,17 +36,10 @@ A métrica identifica quais filiais possuem uma cobertura mais "destoante" do no
 
 Lógica DAX utilizada:
 
-Snippet de código
 ABC = 
 // Medida usada de parâmetro para o ABC
-VAR Percentual = [Perc_Acum_Cobertura]
-RETURN
-    SWITCH(
-        TRUE(),
-        Percentual <= 0.7, "A",
-        Percentual <= 0.9, "B", 
-        "C"
-    )
+VAR Percentual <= 0.7, "A", <= 0.9, "B", "C"
+    
 🚀 Como o Projeto é Utilizado
 Identificação de Outliers: Através do gráfico de dispersão (Scatter Plot), o gestor localiza filiais que fogem do quadrante ideal de Cobertura vs. Venda Líquida.
 
