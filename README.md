@@ -1,4 +1,5 @@
 Análise de Cobertura por Filial e Setor - Varejo
+
 Este projeto foi desenvolvido para otimizar a gestão de estoque em uma rede de varejo, permitindo a identificação precisa do equilíbrio entre o volume de vendas e o estoque disponível (Cobertura).
 
 Nota de Privacidade: Este repositório contém uma versão minimizada e anonimizada de um projeto real de larga escala. Todos os dados sensíveis foram tratados via script Python para garantir a confidencialidade das informações originais.
